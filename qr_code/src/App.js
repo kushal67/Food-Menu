@@ -11,7 +11,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<QRScanner/>} />
-        <Route path="/land" element={<Home/>} />
+        <Route path="/landigPage" element={<Home/>} />
         <Route path="/table/:number" element={<TablePage/>} />
         <Route path="/order/:number" element={<OrderPage/>} />
       </Routes>
