@@ -1,0 +1,61 @@
+/* src/components/TablePage.css */
+
+.table-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .table-number {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .menu-section, .order-section {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .menu-list, .order-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-item, .order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .menu-item:last-child, .order-item:last-child {
+    border-bottom: none;
+  }
+  
+  .add-button, .submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover, .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  
